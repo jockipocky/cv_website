@@ -1,0 +1,6 @@
+
+const model = {
+    
+};
+
+export {model};
