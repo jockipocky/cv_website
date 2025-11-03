@@ -1,0 +1,10 @@
+export function App() {
+  return (
+    <div>
+      <h1>Hello, I’m Jacob 👋</h1>
+      <p>Welcome to my CV website!</p>
+    </div>
+  );
+}
+
+export default App;
