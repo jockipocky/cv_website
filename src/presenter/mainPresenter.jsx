@@ -1,12 +1,12 @@
 import { observer, Observer } from "mobx-react-lite"
-import { createElement } from "react";
-import { ReactRoot } from "./reactRoot";
-import { createRoot } from "react-dom/client";
+import { MainView } from "../view/mainView";
 
-const main = observer(function mainPresenter(props)) {
+const Main = observer(function MainPresenter(props) {
     return ( 
-        <main
-
+        <MainView 
+            model = {props.model}
         />
     );
-};
+});
+
+export {Main};
